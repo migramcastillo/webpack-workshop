@@ -8,12 +8,5 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, "./dist"),
     filename: "app.min.js"
-  },
-  devServer: {
-    contentBase: path.resolve(__dirname, "./dist"),
-    compress: true,
-    publicPath: "/",
-    hot: true,
-    port: 3000
   }
 };
