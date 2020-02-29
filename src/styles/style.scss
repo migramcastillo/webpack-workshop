@@ -1,0 +1,9 @@
+$bgColor: green;
+$fontColor: white;
+
+body {
+  background: $bgColor;
+  h1 {
+    color: $fontColor;
+  }
+}

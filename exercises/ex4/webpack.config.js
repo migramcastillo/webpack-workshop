@@ -9,6 +9,14 @@ module.exports = {
     path: path.resolve(__dirname, "./dist"),
     filename: "app.min.js"
   },
+  module: {
+    rules: [
+      {
+        test: /\.css$/i,
+        use: ["style-loader", "css-loader"]
+      }
+    ]
+  },
   devServer: {
     contentBase: path.resolve(__dirname, "./dist"),
     port: 3000

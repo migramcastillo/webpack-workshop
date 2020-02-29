@@ -1,5 +1,5 @@
 import { tomorrow, today } from "./helpers";
-import "../styles/style.scss";
+import "../styles/style.css";
 
 console.log("WEBPACK");
 
